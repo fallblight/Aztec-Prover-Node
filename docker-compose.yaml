@@ -1,4 +1,4 @@
-```name: aztec-prover
+name: aztec-prover
 services:
   prover-node:
     image: aztecprotocol/aztec:latest # Always refer to the docs to check that you're using the correct image.
@@ -51,4 +51,4 @@ services:
       LOG_LEVEL: info
     volumes:
       - /root/.aztec/alpha-testnet/data/:/data
-```
+
